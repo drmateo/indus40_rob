@@ -48,14 +48,12 @@ Open `tp_00_python_fundamentals.ipynb` and work through the Python fundamentals.
 
 Follow this order:
 
-1. **TP 00** (4h) - Python Fundamentals → Master NumPy and Matplotlib
+1. **TP 00** (8h) - Python Fundamentals → Master NumPy and Matplotlib
 2. **TP 01** (8h) - Geometric Transformations → Understand 2D/3D transforms
 3. **TP 02** (8h) - Forward Kinematics → DH, MDH, Elementary methods
 4. **TP 03** (8h) - Inverse Kinematics → Solve for joint angles
-5. **TP 04** (8h) - Jacobian Analysis → Velocity and singularities
-6. **TP 05** (8h) - Trajectory Planning → Motion control
 
-**Total: 44 hours**
+**Total: 32 hours**
 
 ## Working Method for Each TP
 
@@ -310,16 +308,6 @@ Form study groups of 2-4 students:
 - Practice similar problems
 - Understand concepts, not just memorize
 - Be able to explain your code
-
-## What's Next?
-
-After completing this guided course (44h), you'll be ready for:
-
-**Industry 4.0 SAE Project (52h)**
-- Apply everything you learned
-- Work on realistic industrial project
-- Team-based development
-- See `indus40_rob_sae/` folder
 
 ## Quick Reference Sheet
 

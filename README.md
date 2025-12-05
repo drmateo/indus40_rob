@@ -32,16 +32,6 @@ By the end of this course, students will be able to:
    - Implement geometric and algebraic methods
    - Handle multiple solutions and workspace limits
 
-4. **Jacobian and Velocity Analysis**
-   - Compute manipulator Jacobians
-   - Analyze singularities and workspace
-   - Implement velocity-level control
-
-5. **Trajectory Planning and Control**
-   - Design joint-space trajectories
-   - Implement Cartesian path planning
-   - Develop basic motion control algorithms
-
 ## Course Structure
 
 ### TP 00: Python Fundamentals for Robotics (4h)
@@ -135,56 +125,6 @@ Introduction to spatial transformations and homogeneous coordinates.
 - Elbow-up/elbow-down configurations
 - Wrist center approach
 - Joint limits handling
-
-### TP 04: Jacobian and Velocity Kinematics (4h + 4h)
-**Files:**
-- `tp_04_jacobian_main.ipynb` (overview)
-- `tp_04_jacobian_session1.ipynb` (computation methods)
-- `tp_04_jacobian_session2.ipynb` (applications)
-
-**Session 1 (4h):**
-- Jacobian definition and computation
-- Geometric method
-- Analytical differentiation method
-- Linear and angular velocity relationships
-
-**Session 2 (4h):**
-- Singularity analysis
-- Manipulability measures
-- Force-torque relationships (statics)
-- Resolved-rate motion control
-
-**Applications:**
-- Velocity mapping
-- Singularity avoidance
-- Optimal trajectory execution
-- Force control basics
-
-### TP 05: Trajectory Planning and Control (4h + 4h)
-**Files:**
-- `tp_05_trajectory_control_main.ipynb` (overview)
-- `tp_05_trajectory_control_session1.ipynb` (joint-space)
-- `tp_05_trajectory_control_session2.ipynb` (Cartesian-space)
-
-**Session 1 (4h):**
-- Point-to-point motion (polynomial trajectories)
-- Trapezoidal velocity profiles
-- Multi-segment trajectories
-- Via-point planning
-
-**Session 2 (4h):**
-- Cartesian path planning
-- Linear and circular paths
-- Path tracking with inverse kinematics
-- Simulation and visualization
-
-**Trajectory Types:**
-- Cubic polynomials
-- Quintic polynomials
-- Trapezoidal profiles
-- S-curve profiles
-- Cartesian straight lines
-- Circular arcs
 
 ## Required Tools and Libraries
 
@@ -301,13 +241,11 @@ Each practical session follows this structure:
 
 | Week | Topic | Hours | Files |
 |------|-------|-------|-------|
-| 1 | Python Fundamentals | 4 | tp_00 |
+| 1 | Python Fundamentals | 8 | tp_00 |
 | 2-3 | Geometric Transformations | 8 | tp_01 |
 | 4-5 | Forward Kinematics | 8 | tp_02 |
 | 6-7 | Inverse Kinematics | 8 | tp_03 |
-| 8-9 | Jacobian Analysis | 8 | tp_04 |
-| 10-11 | Trajectory Planning | 8 | tp_05 |
-| **Total** | | **44h** | |
+| **Total** | | **32h** | |
 
 ## Laboratory Guidelines
 
