@@ -27,7 +27,7 @@ venv\Scripts\activate  # Windows
 
 ```bash
 pip install --upgrade pip
-pip install numpy matplotlib scipy
+pip install numpy==1.26.4 matplotlib scipy
 pip install roboticstoolbox-python spatialmath-python
 pip install jupyter notebook
 ```
@@ -175,7 +175,8 @@ pip install roboticstoolbox-python
 ```python
 # Add this at the top of notebook
 %matplotlib notebook  # or
-%matplotlib inline
+%matplotlib inline # or
+%matplotlib widget
 ```
 
 ### Issue: Matrix dimension mismatch
